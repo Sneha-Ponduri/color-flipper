@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorflipper</title>
+    <style>
+        body{
+            height: 100vh; 
+    margin: 0;
+    padding: 0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width:60%;
+            max-width: 600px;
+            background-color: pink;
+            height:400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+
+
+        }
+        #change{
+            background-color: rgb(129, 162, 129);
+            border-radius: 10px;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="change">Click me to change colors</button>
+    </div>
+    <script src="colorflipper.js"></script>
+</body>
+</html>
